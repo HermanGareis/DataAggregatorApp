@@ -2,7 +2,7 @@
 
 This is a MicroService that consumes a Kafka Topic containing information from the Italian Goverment Lombardia region API with regards of the ammount of people vaccinated in each Comune.
 
-The data consumed is then stored in a MongoDB database.
+The data recieved from the Kafka Topic will automatically be saved in a MongoDB.
 
 The application then implements a controller with calls to different methods to fetch data from the database and retrieve it.
 
