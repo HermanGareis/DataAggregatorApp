@@ -6,7 +6,7 @@ The data consumed is then stored in a MongoDB database.
 
 The application then implements a controller with calls to different methods to fetch data from the database and retrieve it.
 
-This are the HTTP GET requests to issue for each method:
+This are the HTTP GET requests to issue for each method (add api/comunes in the front):
 
 1 - Get total people vaccinated with 1 dose: /getTotalNumberOfOneDose
 
