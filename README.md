@@ -29,3 +29,6 @@ This are the HTTP GET requests to issue for each method:
 10 - Get a list of comunes with the most first dose applied by specific province: /getComuneWithMoreOneDoseFromProvince/{siglaProvince}
 
 11 - Get a list of comunes with the most second dose applied by specific province: /getComuneWithMoreTwoDosesFromProvince/{siglaProvince}
+
+
+This project works in conjunction with this other repository that fetches the data from an API and sends it via a Kafka Topic: https://github.com/HermanGareis/DataExtractorApp
