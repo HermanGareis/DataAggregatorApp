@@ -8,11 +8,11 @@ The application then implements a controller with calls to different methods to 
 
 This are the HTTP GET requests to issue for each method (add api/comunes in the front):
 
-1 - Get total people vaccinated with 1 dose: /getTotalNumberOfOneDose
+* Get total people vaccinated with 1 dose: /getTotalNumberOfOneDose
 
-2 - Get total people vaccinated with 2 doses: /getTotalNumberOfTwoDoses
+* Get total people vaccinated with 2 doses: /getTotalNumberOfTwoDoses
 
-3 - Get total people vaccinated with 1 dose from a specific province: /getTotalNumberOfOneDoseFromProvince/{siglaProvince}
+* Get total people vaccinated with 1 dose from a specific province: /getTotalNumberOfOneDoseFromProvince/{siglaProvince}
 
 4 - Get total people vaccinated with 2 doses from a specific province: /getTotalNumberOfTwoDosesFromProvince/{siglaProvince}
 
